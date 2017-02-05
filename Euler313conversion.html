@@ -28,15 +28,15 @@ Program written by Matt Dienhart, 1-31-2017 -->
 
 <script>
 function convertToEuler313(){
-	var a11 = document.getElementById("a11").value;
-    var a12 = document.getElementById("a12").value;
-    var a13 = document.getElementById("a13").value;
-    var a21 = document.getElementById("a21").value;
-    var a22 = document.getElementById("a22").value;
-    var a23 = document.getElementById("a23").value;
-    var a31 = document.getElementById("a31").value;
-    var a32 = document.getElementById("a32").value;
-    var a33 = document.getElementById("a33").value;
+    var a11 = Number(document.getElementById("a11").value);
+    var a12 = Number(document.getElementById("a12").value);
+    var a13 = Number(document.getElementById("a13").value);
+    var a21 = Number(document.getElementById("a21").value);
+    var a22 = Number(document.getElementById("a22").value);
+    var a23 = Number(document.getElementById("a23").value);
+    var a31 = Number(document.getElementById("a31").value);
+    var a32 = Number(document.getElementById("a32").value);
+    var a33 = Number(document.getElementById("a33").value);
     
     var A = [[a11, a12, a13],[a21, a22, a23],[a31,a32,a33]];
     var Euler = [0, 0, 0];
